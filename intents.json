@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items do you sell?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell tickets, jerseys, and tracksuits.",
+        "We have  tickets, jerseys, and tracksuits."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Crypto",
+        "We accept most major credit cards, and Crypto"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is Arsenal FC located?",
+        "What city in England are Arsenal FC found in?"
+      ],
+      "responses": [
+        "Arsenal are located in London England"
+      ]
+    },
+    {
+      "tag": "stadium",
+      "patterns": [
+        "Where do Arsenal play?",
+        "Where is Arsenal's home?",
+        "Where are Arsenal's home games played?"
+      ],
+      "responses": [
+        "Arsenal play their home games at the Emirates Stadium.",
+        "Arsenal play at the Emirates Stadium."
+      ]
+    },
+    {
+      "tag": "manager",
+      "patterns": [
+        "Who is the manager?",
+        "Who is the coach?",
+        "Tell me the manager?"
+      ],
+      "responses": [
+        "The arsenal manager is Mikel Arteta.",
+        "The arsenal coach is Mikel Arteta."
+      ]
+    },
+    {
+      "tag": "FA Cup",
+      "patterns": [
+        "How many FA Cups have Arsenal FC won?",
+        "How many FA Cups does Arsenal FC have?"
+        
+      ],
+      "responses": [
+        "Arsenal have won 14 FA Cups.",
+        "Arsenal are the most successful club in the history of the FA Cup, winning a total of 14 FA Cup competitions."
+      ]
+    },
+    {
+      "tag": "Premier League Titles",
+      "patterns": [
+        "How many premier leagues titles have Arsenal FC won?",
+        "How many league titles have Arsenal FC won?"
+        
+      ],
+      "responses": [
+        "Arsenal FC have won 3 premier league titles.",
+        "Arsenal FC have won 3 league titles."
+      ]
+    }
+
+  ]
+}
